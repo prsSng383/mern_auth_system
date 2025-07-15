@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 4000 ;
 connectDB();
 
-const allowedOrigins = ['https://mern-auth-system-frontend-opal.vercel.app/']
+const allowedOrigins = ['https://mern-auth-system-frontend-opal.vercel.app']
 
 app.use(express.json());
 app.use(cookieParser());
